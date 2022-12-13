@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Test1.css">
+    <title>내전 팀짜기</title>
+</head>
+<body>
+    <h1 class="feedback">롤 밸런스 내전 팀짜기</h1>
+    <div class="left">
+        <form id="eform" >
+            <fieldset style="width: 200px;">
+                <legend>플레이어 추가</legend>
+            닉네임 입력 <input type="text" id="name" ><br> 
+            티어
+            <span>
+                <select name="tier" id="tier">
+                        <option>티어</option>
+                        <option value="27">챌린저</option>
+                        <option value="26">그랜드 마스터</option>
+                        <option value="25">마스터</option>
+                        <option value="24">다이아1</option>
+                        <option value="23">다이아2</option>
+                        <option value="22">다이아3</option>
+                        <option value="21">다이아4</option>
+                        <option value="20">플래티넘1</option>
+                        <option value="19">플래티넘2</option>
+                        <option value="18">플래티넘3</option>
+                        <option value="17">플래티넘4</option>
+                        <option value="16">골드1</option>
+                        <option value="15">골드2</option>
+                        <option value="14">골드3</option>
+                        <option value="13">골드4</option>
+                        <option value="12">실버1</option>
+                        <option value="11">실버2</option>
+                        <option value="10">실버3</option>
+                        <option value="9">실버4</option>
+                        <option value="8">브론즈1</option>
+                        <option value="7">브론즈2</option>
+                        <option value="6">브론즈3</option>
+                        <option value="5">브론즈4</option>
+                        <option value="4">아이언1</option>
+                        <option value="3">아이언2</option>
+                        <option value="2">아이언3</option>
+                        <option value="1">아이언4</option>
+                </select>
+            </span>
+            <button type="submit">추가</button>
+            </fieldset>
+        </form>
+    </div>
+    <div id="team">
+        <form>
+            <fieldset style="width: 200px;">
+                <legend>내전 팀 추천</legend>
+            </fieldset>
+        </form>
+    </div>
+    <div style="float: bottom;">
+        <form>
+            <fieldset">
+                <legend>입력 조건</legend>
+                <ul>
+                    <li>닉네임과 티어를 꼭 다 써주세요!</li>
+                    <li></li>
+                </ul>
+            </fieldset>
+        </form>
+    </div>
+    <div class="playlist" class="left">
+        <form id="list">
+            <fieldset style="width: 200px;">
+                <legend>플레이어 목록</legend>
+                <div id="players">
+                    <p id="txt">닉네임</p><p id="tier1">티어</p>
+                </div>
+                <button type="button">팀 맞추기</button>
+            </fieldset>
+        </form>
+    </div>
+    
+    <script src="Test1.js"></script>
+</body>
+</html>
